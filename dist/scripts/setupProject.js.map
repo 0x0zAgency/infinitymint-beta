@@ -1,0 +1,1 @@
+{"version":3,"file":"setupProject.js","sourceRoot":"","sources":["../../scripts/setupProject.ts"],"names":[],"mappings":";;;;;;;;;;;;IAEA,MAAM,YAAY,GAAuB;QACrC,IAAI,EAAE,wBAAwB;QAC9B,WAAW,EACP,qJAAqJ;QACzJ,OAAO,EAAE,GAAS,EAAE,0DAAE,CAAC,CAAA;QACvB,SAAS,EAAE;YACP;gBACI,IAAI,EAAE,SAAS;gBACf,IAAI,EAAE,QAAQ;gBACd,QAAQ,EAAE,IAAI;aACjB;SACJ;KACJ,CAAC;IACF,kBAAe,YAAY,CAAC"}

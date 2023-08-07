@@ -1,0 +1,1 @@
+{"version":3,"file":"convertProject.js","sourceRoot":"","sources":["../../scripts/convertProject.ts"],"names":[],"mappings":";;;;;;;;;;;;IAQA,MAAM,cAAc,GAAuB;QACvC,IAAI,EAAE,iBAAiB;QACvB,WAAW,EAAE,8CAA8C;QAC3D,OAAO,EAAE,CAAO,MAAoC,EAAE,EAAE,0DAAE,CAAC,CAAA;QAC3D,SAAS,EAAE,EAAE;KAChB,CAAC;IACF,kBAAe,cAAc,CAAC"}

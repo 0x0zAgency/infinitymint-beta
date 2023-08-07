@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "**/client/*.*": "typescriptreact",
+        "*.js": "javascriptreact"
+    },
+    "solidity.defaultCompiler": "localFile",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12.5,
+    "git.ignoreLimitWarning": true
+}

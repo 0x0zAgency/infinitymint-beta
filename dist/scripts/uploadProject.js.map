@@ -1,0 +1,1 @@
+{"version":3,"file":"uploadProject.js","sourceRoot":"","sources":["../../scripts/uploadProject.ts"],"names":[],"mappings":";;;;;;;;;;;;IAEA,MAAM,aAAa,GAAuB;QACtC,IAAI,EAAE,QAAQ;QACd,WAAW,EACP,mHAAmH;QACvH,OAAO,EAAE,GAAS,EAAE,0DAAE,CAAC,CAAA;QACvB,SAAS,EAAE;YACP;gBACI,IAAI,EAAE,SAAS;gBACf,QAAQ,EAAE,IAAI;aACjB;SACJ;KACJ,CAAC;IACF,kBAAe,aAAa,CAAC"}
