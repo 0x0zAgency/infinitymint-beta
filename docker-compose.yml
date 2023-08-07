@@ -1,0 +1,34 @@
+version: '2'
+services:
+  api:
+    depends_on:
+      - ganache
+    build:
+      context: .
+      dockerfile: docker/api
+    ports: 
+      - 1337:1337
+  ganache:
+    build:
+      context: .
+      dockerfile: docker/ganache
+    ports:
+      - 8545:8545
+    volumes:
+      - .:/ganache-data
+  telnet:
+    depends_on:
+      - console
+    build: .
+    ports:
+      - 8888:8888
+  console:
+    depends_on:
+      - ganache
+    environment:
+      - NODE_ENV=production
+    build:
+      context: .
+      dockerfile: docker/console
+    volumes:
+      - .:/app/console

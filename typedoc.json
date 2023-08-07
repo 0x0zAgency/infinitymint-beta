@@ -1,0 +1,26 @@
+{
+	"cname": "docs.infinitymint.app",
+	"$schema": "https://typedoc.org/schema.json",
+	"readme": "./ReadMe.markdown",
+	"entryPoints": [
+		"app/*",
+		"app/*/windows",
+		"deploy/*/*",
+		"gems/example/*/*",
+		"typechain-types/*",
+		"typechain-types/*/*",
+		"examples/*",
+		"imports/*",
+		"imports/*/*",
+		"tests/*",
+		"tests/alpha/*",
+		"tests/beta/*",
+		"tests/*/*"
+	],
+	"theme": "hierarchy",
+	"name": "InfinityMint",
+	"entryPointStrategy": "expand",
+	"gitRemote": "origin",
+	"exclude": ["node_modules", "imports/", "examples/js/"],
+	"out": "docs"
+}

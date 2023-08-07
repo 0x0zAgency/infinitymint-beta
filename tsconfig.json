@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "umd",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": false,
+        "allowJs": true,
+        "rootDirs": ["./app"],
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "paths": {
+            "@app/*": ["./app/*"],
+            "@typechain-types/*": ["./typechain-types/*"]
+        },
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "dist",
+        "dist/tests",
+        "node_modules",
+        "./examples",
+        "gems/__",
+        "gems/__cache",
+        "gems/@"
+    ],
+    "include": [
+        "./app",
+        "./tests",
+        "./gems",
+        "./deploy",
+        "./scripts",
+        "./imports",
+        "./routes",
+        "./typechain-types",
+        "core.ts",
+        "./tests"
+    ],
+    "files": ["./hardhat.config.ts", "core.ts", "./examples/example.env.ts"]
+}

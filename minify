@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+npx uglifyjs dist/^(?!.*\/(example)\/)*(.ts|.js)$ -o dist/infinitymint.min.js -cm
